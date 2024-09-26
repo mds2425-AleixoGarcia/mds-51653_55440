@@ -34,5 +34,37 @@ sudo dpkg -i elasticsearch-6.6.0.deb
 sudo /etc/init.d/elasticsearch start
 ```
 
+**rpm**:
+```
+curl -L -O https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.6.0.rpm
+sudo rpm -i elasticsearch-6.6.0.rpm
+sudo service elasticsearch start
+```
+**mac**:
+ ```
+curl -L -O https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.6.0.tar.gz
+tar -xzvf elasticsearch-6.6.0.tar.gz
+cd elasticsearch-6.6.0
+./bin/elasticsearch
+
+```
+
+**win**:
+
+ 1.Download the Elasticsearch 6.6.0 Windows zip file from the Elasticsearch download page.
+ 2.Extract the contents of the zip file to a directory on your computer, for example, C:\Program Files.
+ 3.Open a command prompt as an Administrator and navigate to the directory that contains the extracted files, for example:
+ ```
+ cd C:\Program Files\elasticsearch-6.6.0
+```
+Start Elasticsearch
+
+
+
+   
+
+   
+ 
+
  
  

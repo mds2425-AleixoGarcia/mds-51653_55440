@@ -28,11 +28,11 @@ Elasticsearch can be run on your own hardware or using our hosted Elasticsearch 
 To download and install Elasticsearch, open a terminal window and use the commands that work with your system ([deb](https://www.elastic.co/docs#deb) for Debian/Ubuntu, [rpm](https://www.elastic.co/docs#rpm) for Redhat/Centos/Fedora, [mac](https://www.elastic.co/docs#mac) for OS X, and [win](https://www.elastic.co/docs#win) for Windows):
 
 **deb**:
-´´´ 
+```
  curl -L -O https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.6.0.deb
 sudo dpkg -i elasticsearch-6.6.0.deb
 sudo /etc/init.d/elasticsearch start
-´´´
+```
 
  
  

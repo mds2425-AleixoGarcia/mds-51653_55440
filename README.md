@@ -118,9 +118,10 @@ cd kibana-6.6.0-darwin-x86_64/
 ./bin/kibana
 ```
 **win**:
- 1.Download the Kibana 6.6.0 Windows zip file from the [kibana download]() page
+
+ 1. Download the Kibana 6.6.0 Windows zip file from the [kibana download]() page
  2. Extract the contents of the zip file to a directory on your computer, for example, ```C://Program Files```
- 4.Start Kibana
+ 4. Start Kibana
  For other operating systems, go to the Kibana download page.
 
 To learn more about installing, configuring, and running Kibana, read the Kibana Reference.

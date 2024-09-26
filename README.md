@@ -1,1 +1,1 @@
-# mds-51653_55440
+#Getting started with the Elastic Stack

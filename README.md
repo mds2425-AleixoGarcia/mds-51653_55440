@@ -52,7 +52,9 @@ cd elasticsearch-6.6.0
 **win**:
 
  1.Download the Elasticsearch 6.6.0 Windows zip file from the Elasticsearch download page.
+ 
  2.Extract the contents of the zip file to a directory on your computer, for example, C:\Program Files.
+ 
  3.Open a command prompt as an Administrator and navigate to the directory that contains the extracted files, for example:
  ```
  cd C:\Program Files\elasticsearch-6.6.0

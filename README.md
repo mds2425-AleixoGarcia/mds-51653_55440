@@ -73,7 +73,7 @@ To test that the Elasticsearch daemon is up and running, try sending an HTTP GET
 On Windows, if you don’t have cURL installed, point your browser to the URL.
 
 You should see a response similar to this:
-``
+```
 {
   "name" : "QtI5dUu",
   "cluster_name" : "elasticsearch",

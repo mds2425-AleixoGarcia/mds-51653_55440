@@ -14,12 +14,12 @@ To get started, you can install the Elastic Stack on a single VM or even on your
 
 Implementing security is a critical step in setting up the Elastic Stack. To get up and running quickly with a sample installation, you skip those steps right now. Before sending sensitive data across the network, make sure you secure the Elastic Stack and enable encrypted communications.
 
-# Before you login
+## Before you login
 
    See the Elastic Support Matrix for information about supported operating systems and product compatibility.
    Verify that your system meets the minimum JVM requirements for Logstash and Elasticsearch.
 
-#Install ElasticSearch
+## Install ElasticSearch
 
 Elasticsearch is a real-time, distributed storage, search, and analytics engine. It can be used for many purposes, but one context where it excels is indexing streams of semi-structured data, such as logs or decoded network packets.
 

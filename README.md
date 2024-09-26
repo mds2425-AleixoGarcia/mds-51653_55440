@@ -132,5 +132,13 @@ To learn more about installing, configuring, and running Kibana, read the Kibana
 Each Beat is a separately installable product. In this tutorial, you learn how to install and run Metricbeat with the system module enabled to collect system metrics.
 
 To learn more about installing and configuring other Beats, see the Getting Started documentation:
- 
- 
+
+ Colons can be used to align columns.
+
+| Elastic Beats | To capture   :|
+| ------------- |:-------------:|
+| [AudiBeat]()  | Audit data   :|
+| col 2 is      | Log files    :|
+| zebra stripes | Cloud data   :|
+| HeartBeat     | Availiability monitoring :|
+

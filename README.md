@@ -61,10 +61,18 @@ cd elasticsearch-6.6.0
 ```
 4.Start Elasticsearch
 
-For other operating systems, go to the Elasticsearch download page.
+For other operating systems, go to the [Elasticsearch download page](https://www.elastic.co/pt/downloads/elasticsearch).
 
-To learn more about installing, configuring, and running Elasticsearch, read theElasticsearch Reference.
+To learn more about installing, configuring, and running Elasticsearch, read [theElasticsearch Reference](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html).
 
+## Make sure Elasticsearch is up and running
+
+To test that the Elasticsearch daemon is up and running, try sending an HTTP GET request on port 9200.
+ curl ```http://127.0.0.1:9200 ```
+ 
+On Windows, if you don’t have cURL installed, point your browser to the URL.
+
+You should see a response similar to this:
 
 
    

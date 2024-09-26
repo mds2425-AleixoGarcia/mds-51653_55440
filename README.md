@@ -73,11 +73,28 @@ To test that the Elasticsearch daemon is up and running, try sending an HTTP GET
 On Windows, if you don’t have cURL installed, point your browser to the URL.
 
 You should see a response similar to this:
+``
+{
+  "name" : "QtI5dUu",
+  "cluster_name" : "elasticsearch",
+  "cluster_uuid" : "DMXhqzzjTGqEtDlkaMOzlA",
+  "version" : {
+    "number" : "6.6.0",
+    "build_flavor" : "default",
+    "build_type" : "tar",
+    "build_hash" : "00d8bc1",
+    "build_date" : "2018-06-06T16:48:02.249996Z",
+    "build_snapshot" : false,
+    "lucene_version" : "7.3.1",
+    "minimum_wire_compatibility_version" : "5.6.0",
+    "minimum_index_compatibility_version" : "5.0.0"
+  },
+  "tagline" : "You Know, for Search"
+}
+``
+## Install Kibana
 
-
-   
-
-   
+[kibana](https://www.elastic.co/pt/kibana)
  
 
  

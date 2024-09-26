@@ -137,8 +137,8 @@ To learn more about installing and configuring other Beats, see the Getting Star
 
 | Elastic Beats | To capture   :|
 | ------------- |:-------------:|
-| [AudiBeat]()  | Audit data   :|
-| col 2 is      | Log files    :|
+| [AudiBeat]()  | Audit data   |
+| col 2 is      | Log files    
 | zebra stripes | Cloud data   :|
-| HeartBeat     | Availiability monitoring :|
+| HeartBeat     | Availiability monitoring |
 

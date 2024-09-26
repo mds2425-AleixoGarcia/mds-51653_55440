@@ -91,11 +91,39 @@ You should see a response similar to this:
   },
   "tagline" : "You Know, for Search"
 }
-``
+```
+
 ## Install Kibana
 
-[kibana](https://www.elastic.co/pt/kibana)
- 
+[kibana](https://www.elastic.co/pt/kibana) s an open source analytics and visualization platform designed to work with Elasticsearch. You use Kibana to search, view, and interact with data stored in Elasticsearch indices. You can easily perform advanced data analysis and visualize your data in a variety of charts, tables, and maps.
 
+If you are running our hosted Elasticsearch Service on [Elastic Cloud](https://www.elastic.co/pt/cloud), then [Kibana can be enabled](https://www.elastic.co/guide/en/cloud/current/ec-enable-kibana.html) with the flick of a switch.
+
+We recommend that you install Kibana on the same server as Elasticsearch, but it is not required. If you install the products on different servers, you’ll need to change the URL (IP:PORT) of the Elasticsearch server in the Kibana configuration file, ```kibana.yml```, before starting Kibana.
+
+To download and install Kibana, open a terminal window and use the commands that work with your system:
+ 
+**deb or rpm**:
+```
+curl -L -O https://artifacts.elastic.co/downloads/kibana/kibana-6.6.0-linux-x86_64.tar.gz
+tar xzvf kibana-6.6.0-linux-x86_64.tar.gz
+cd kibana-6.6.0-linux-x86_64/
+./bin/kibana
+```
+**mac**:
+```
+curl -L -O https://artifacts.elastic.co/downloads/kibana/kibana-6.6.0-darwin-x86_64.tar.gz
+tar xzvf kibana-6.6.0-darwin-x86_64.tar.gz
+cd kibana-6.6.0-darwin-x86_64/
+./bin/kibana
+```
+**win**:
+ 1.Download the Kibana 6.6.0 Windows zip file from the [kibana download]() page
+ 2. Extract the contents of the zip file to a directory on your computer, for example, ```C://Program Files```
+ 4.Start Kibana
+ For other operating systems, go to the Kibana download page.
+
+To learn more about installing, configuring, and running Kibana, read the Kibana Reference.
+ 
  
  

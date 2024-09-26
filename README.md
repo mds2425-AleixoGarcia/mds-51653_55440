@@ -125,6 +125,12 @@ cd kibana-6.6.0-darwin-x86_64/
  For other operating systems, go to the Kibana download page.
 
 To learn more about installing, configuring, and running Kibana, read the Kibana Reference.
- 
+
+## Launch the Kibana web interface
+ The Beats are open source data shippers that you install as agents on your servers to send operational data to Elasticsearch. Beats can send data directly to Elasticsearch or via Logstash, where you can further process and enhance the data.
+
+Each Beat is a separately installable product. In this tutorial, you learn how to install and run Metricbeat with the system module enabled to collect system metrics.
+
+To learn more about installing and configuring other Beats, see the Getting Started documentation:
  
  

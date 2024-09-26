@@ -1,1 +1,1 @@
-#Getting started with the Elastic Stack
+# Getting started with the Elastic Stack
